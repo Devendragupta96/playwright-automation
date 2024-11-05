@@ -1,0 +1,21 @@
+{
+  "name": "playrght",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx playwright test --headed"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.45.1",
+    "@types/node": "^20.11.19",
+    "allure-commandline": "^2.29.0",
+    "allure-playwright": "^3.0.0-beta.6"
+  },
+  "dependencies": {
+    "xlsx": "^0.18.5"
+  }
+}
